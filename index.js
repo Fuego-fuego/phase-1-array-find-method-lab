@@ -11,11 +11,11 @@ function superbowlWin(record) {
 
                 return element;
             }
-            
+
         }
     );
     // ternary operator used to assign a result based on find method
-    let result = winYear?winYear['year']:undefined;
+    let result = winYear ? winYear['year'] : undefined;
 
     return result;
 };
