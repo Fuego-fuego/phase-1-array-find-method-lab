@@ -14,7 +14,7 @@ function superbowlWin(record) {
             
         }
     );
-    // Operator used to assign a result based on find method
+    // ternary operator used to assign a result based on find method
     let result = winYear?winYear['year']:undefined;
 
     return result;
